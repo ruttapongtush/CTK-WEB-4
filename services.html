@@ -1,12 +1,450 @@
-<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CTK SUCCESS | บริการ</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="header"><div class="container header-inner"><a class="brand" href="index.html">CTK SUCCESS</a><button class="menu-btn">☰</button><nav class="nav"><a href="index.html">หน้าแรก</a><a class="active" href="services.html">บริการ</a><a href="portfolio.html">ผลงาน</a><a href="contact.html">ติดต่อ</a></nav></div></header>
-<main><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">SERVICES</span><h1>บริการของเรา</h1><p>บริการด้านไอทีและงานสนับสนุนแบบครบวงจร เพื่อตอบโจทย์ทั้งภาครัฐและเอกชน</p></div><div class="grid grid-3">
-<article class="service-card"><img src="images/service/service1.jpg" alt="Wi-Fi"><div class="service-body"><span class="num">01</span><h3>วางระบบ WIFI Hi‑speed Internet</h3><p>ติดตั้งและวางระบบอินเทอร์เน็ตความเร็วสูง พร้อมสำรวจตำแหน่ง Access Point ให้เหมาะกับพื้นที่ใช้งาน</p></div></article>
-<article class="service-card"><img src="images/service/service2.jpg" alt="CCTV"><div class="service-body"><span class="num">02</span><h3>CCTV Installation</h3><p>ติดตั้งกล้องวงจรปิด IP / DVR / NVR สำหรับบ้าน ร้านค้า สำนักงาน และองค์กร พร้อมดูภาพผ่านมือถือ</p></div></article>
-<article class="service-card"><img src="images/service/service3.jpg" alt="IT Support"><div class="service-body"><span class="num">03</span><h3>IT Support</h3><p>ดูแล แก้ไข และบำรุงรักษาคอมพิวเตอร์ ระบบ Network และอุปกรณ์ IT ให้พร้อมใช้งาน</p></div></article>
-<article class="service-card"><img src="images/service/service4.jpg" alt="Computer"><div class="service-body"><span class="num">04</span><h3>จำหน่ายอุปกรณ์คอมพิวเตอร์</h3><p>จัดหาและจำหน่ายอุปกรณ์คอมพิวเตอร์ Network และ CCTV ตามความต้องการของลูกค้า</p></div></article>
-<article class="service-card"><img src="images/service/service5.jpg" alt="Network Server Firewall"><div class="service-body"><span class="num">05</span><h3>Network, Server & Firewall</h3><p>ออกแบบและติดตั้งระบบเครือข่ายองค์กร</p><ul><li>วางระบบ LAN / Fiber</li><li>ติดตั้ง Server และ Firewall</li><li>ให้คำปรึกษาด้าน IT Infrastructure</li></ul></div></article>
-<article class="service-card"><img src="images/cleaningservice/cleaning1.jpg" alt="Cleaning"><div class="service-body"><span class="num">06</span><h3>บริการทำความสะอาด</h3><p>บริการทำความสะอาดสำนักงาน อาคาร และพื้นที่ขนาดใหญ่ด้วยทีมงานมืออาชีพ</p></div></article>
-<article class="service-card"><img src="images/service/service7.jpg" alt="Gardening"><div class="service-body"><span class="num">07</span><h3>บริการดูแลสวน</h3><p>ดูแลสวนและพื้นที่สีเขียวให้สวยงาม เป็นระเบียบ และเหมาะสมกับพื้นที่ใช้งาน</p></div></article>
-</div></div></section><section class="section white"><div class="container"><div class="cta"><div><h2>มีงานที่ต้องการให้ช่วยประเมิน?</h2><p>ส่งรายละเอียดมาให้เราเพื่อคุยแนวทางและขอบเขตงานเบื้องต้น</p></div><a class="btn" href="contact.html">ติดต่อเรา</a></div></div></section></main>
-<footer class="footer"><div class="container"><div class="footer-grid"><div><h3>CTK SUCCESS</h3><p>Think quality, Think of us.</p></div><div><p>115 หมู่ 7 ตำบลทะเลชุบศร อำเภอเมือง จังหวัดลพบุรี 15000<br>036-680750 • info@ctksuccess.co.th</p></div></div><div class="footer-bottom"><span>© <span data-year></span> CTK SUCCESS</span><span>ctksuccess.co.th</span></div></div></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>บริการ | CTK SUCCESS</title>
+  <meta name="description" content="บริการ CCTV, Network, Wi-Fi, Server & Firewall, Fiber Optic และ IT Support โดย CTK SUCCESS">
+  <link rel="stylesheet" href="style.css?v=10">
+
+  <style>
+    .service-page-hero{
+      background:
+        linear-gradient(90deg,rgba(3,31,61,.94),rgba(5,100,137,.78)),
+        url("images/networksystem/network6.jpg") center/cover no-repeat;
+      color:#fff;
+      padding:74px 0 68px;
+    }
+    .service-page-hero .eyebrow{
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:1.8px;
+      color:#69e5e1;
+      margin-bottom:12px;
+    }
+    .service-page-hero h1{
+      margin:0;
+      font-size:46px;
+      line-height:1.15;
+    }
+    .service-page-hero p{
+      max-width:680px;
+      margin:16px 0 0;
+      color:#e3f4f7;
+      line-height:1.8;
+      font-size:15px;
+    }
+
+    .service-intro{
+      text-align:center;
+      padding:52px 0 22px;
+    }
+    .service-intro h2{
+      font-size:28px;
+      margin:0 0 12px;
+    }
+    .service-intro p{
+      max-width:720px;
+      margin:auto;
+      color:#5b7188;
+      line-height:1.8;
+      font-size:14px;
+    }
+
+    .service-list{
+      padding:26px 0 65px;
+    }
+    .service-row{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      min-height:330px;
+      border:1px solid #e2edf3;
+      border-radius:14px;
+      overflow:hidden;
+      margin-bottom:24px;
+      background:#fff;
+      box-shadow:0 10px 30px rgba(6,52,88,.07);
+    }
+    .service-row.reverse .service-photo{order:2}
+    .service-row.reverse .service-detail{order:1}
+
+    .service-photo{
+      min-height:330px;
+      background:#eaf3f7 center/cover no-repeat;
+    }
+    .photo-cctv{background-image:url("images/cctvsystem/cctv5.jpg")}
+    .photo-network{background-image:url("images/networksystem/network6.jpg")}
+    .photo-wifi{background-image:url("images/wifihotspotsystem/wifihotspot7.jpg")}
+    .photo-server{background-image:url("images/networksystem/network4.jpg")}
+    .photo-fiber{background-image:url("images/service/service3.jpg")}
+    .photo-support{background-image:url("images/service/service4.jpg")}
+
+    .service-detail{
+      padding:42px 44px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+    .service-no{
+      font-size:12px;
+      font-weight:900;
+      color:#08aabd;
+      letter-spacing:1.6px;
+      margin-bottom:8px;
+    }
+    .service-detail h2{
+      margin:0 0 12px;
+      font-size:28px;
+      color:#052b54;
+    }
+    .service-detail>p{
+      margin:0 0 18px;
+      color:#5b7188;
+      line-height:1.8;
+      font-size:14px;
+    }
+    .service-points{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:9px 20px;
+      margin:0 0 22px;
+      padding:0;
+      list-style:none;
+    }
+    .service-points li{
+      font-size:13px;
+      color:#244b6d;
+    }
+    .service-points li::before{
+      content:"✓";
+      color:#0ab4b4;
+      font-weight:900;
+      margin-right:7px;
+    }
+    .service-link{
+      align-self:flex-start;
+      font-size:13px;
+      font-weight:900;
+      color:#0799ae;
+      border-bottom:1px solid #6ad8d5;
+      padding-bottom:3px;
+    }
+
+    .why-service{
+      background:#f5f9fc;
+      padding:55px 0;
+    }
+    .why-grid{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:16px;
+      margin-top:28px;
+    }
+    .why-card{
+      background:#fff;
+      border:1px solid #e2edf3;
+      border-radius:10px;
+      padding:26px 22px;
+      text-align:center;
+    }
+    .why-icon{
+      width:48px;
+      height:48px;
+      border-radius:50%;
+      margin:0 auto 13px;
+      background:#e7f8f8;
+      color:#0699ad;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:22px;
+      font-weight:900;
+    }
+    .why-card h3{
+      margin:0 0 7px;
+      font-size:16px;
+    }
+    .why-card p{
+      margin:0;
+      color:#64798d;
+      font-size:12px;
+      line-height:1.7;
+    }
+
+    @media(max-width:800px){
+      .service-page-hero h1{font-size:38px}
+      .service-row{grid-template-columns:1fr}
+      .service-row.reverse .service-photo,
+      .service-row.reverse .service-detail{order:initial}
+      .service-photo{min-height:250px}
+      .service-detail{padding:30px 26px}
+      .why-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:520px){
+      .service-page-hero{padding:55px 0}
+      .service-page-hero h1{font-size:33px}
+      .service-points{grid-template-columns:1fr}
+      .why-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-symbol">C</span>
+      <span>CTK SUCCESS</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="เปิดเมนู">☰</button>
+
+    <nav class="nav-menu">
+      <a href="index.html">หน้าแรก</a>
+      <a class="active" href="services.html">บริการ</a>
+      <a href="index.html#products">สินค้า</a>
+      <a href="portfolio.html">ผลงาน</a>
+      <a href="contact.html">ติดต่อ</a>
+    </nav>
+
+    <a class="call-btn" href="tel:036680750">☎ &nbsp;036-680750</a>
+  </div>
+</header>
+
+<main>
+  <section class="service-page-hero">
+    <div class="container">
+      <div class="eyebrow">OUR SERVICES</div>
+      <h1>บริการด้านไอทีครบวงจร</h1>
+      <p>
+        ออกแบบ ติดตั้ง และดูแลระบบ IT Infrastructure สำหรับธุรกิจและองค์กร
+        ตั้งแต่ระบบกล้องวงจรปิด Network, Wi-Fi, Server, Firewall, Fiber Optic
+        ไปจนถึงบริการ IT Support
+      </p>
+    </div>
+  </section>
+
+  <section class="service-intro">
+    <div class="container">
+      <h2>บริการของเรา</h2>
+      <p>
+        เราให้ความสำคัญกับการออกแบบระบบให้เหมาะกับหน้างานจริง
+        เลือกใช้อุปกรณ์ให้ตรงกับการใช้งาน และดูแลหลังการติดตั้ง
+        เพื่อให้ระบบทำงานได้อย่างเสถียรและพร้อมใช้งาน
+      </p>
+    </div>
+  </section>
+
+  <section class="service-list">
+    <div class="container">
+
+      <article class="service-row">
+        <div class="service-photo photo-cctv"></div>
+        <div class="service-detail">
+          <div class="service-no">01 • CCTV SYSTEM</div>
+          <h2>ติดตั้งกล้องวงจรปิด</h2>
+          <p>
+            ออกแบบและติดตั้งระบบ CCTV สำหรับบ้าน อาคาร สำนักงาน โรงงาน
+            และพื้นที่ธุรกิจ พร้อมตั้งค่าดูภาพผ่านมือถือและระบบบันทึกภาพ
+          </p>
+          <ul class="service-points">
+            <li>IP Camera / NVR</li>
+            <li>Analog HD / DVR</li>
+            <li>ดูภาพผ่านมือถือ</li>
+            <li>ออกแบบตำแหน่งกล้อง</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+      <article class="service-row reverse">
+        <div class="service-photo photo-network"></div>
+        <div class="service-detail">
+          <div class="service-no">02 • NETWORK</div>
+          <h2>Network Solution</h2>
+          <p>
+            ออกแบบและติดตั้งระบบ LAN สำหรับองค์กร ตั้งแต่ Switch, VLAN,
+            Router, Rack ไปจนถึงการจัดระเบียบสายและตรวจสอบระบบเดิม
+          </p>
+          <ul class="service-points">
+            <li>LAN & Structured Cabling</li>
+            <li>Switch & VLAN</li>
+            <li>Rack & Patch Panel</li>
+            <li>Network Troubleshooting</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <div class="service-photo photo-wifi"></div>
+        <div class="service-detail">
+          <div class="service-no">03 • WI-FI</div>
+          <h2>Wi-Fi Solution</h2>
+          <p>
+            ออกแบบระบบ Wi-Fi สำหรับพื้นที่ขนาดเล็กจนถึงองค์กร
+            พร้อมสำรวจตำแหน่ง Access Point เพื่อให้สัญญาณครอบคลุมและรองรับผู้ใช้งานได้เหมาะสม
+          </p>
+          <ul class="service-points">
+            <li>Wi-Fi Site Survey</li>
+            <li>Access Point Installation</li>
+            <li>Controller / Cloud</li>
+            <li>Guest Wi-Fi</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+      <article class="service-row reverse">
+        <div class="service-photo photo-server"></div>
+        <div class="service-detail">
+          <div class="service-no">04 • SERVER & FIREWALL</div>
+          <h2>Server & Firewall</h2>
+          <p>
+            ติดตั้งและดูแล Server, Firewall และระบบเครือข่ายสำหรับองค์กร
+            เพื่อเพิ่มความปลอดภัย การจัดการสิทธิ์ และความต่อเนื่องในการทำงาน
+          </p>
+          <ul class="service-points">
+            <li>Server Installation</li>
+            <li>Firewall Configuration</li>
+            <li>User & Permission</li>
+            <li>Backup Solution</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+      <article class="service-row">
+        <div class="service-photo photo-fiber"></div>
+        <div class="service-detail">
+          <div class="service-no">05 • FIBER OPTIC</div>
+          <h2>Fiber Optic Solution</h2>
+          <p>
+            เดินสายและเชื่อมต่อระบบ Fiber Optic สำหรับ Backbone ระหว่างอาคาร
+            หรือระยะทางไกล พร้อมทดสอบและจัดเก็บสายอย่างเป็นระบบ
+          </p>
+          <ul class="service-points">
+            <li>Fiber Backbone</li>
+            <li>Fusion Splicing</li>
+            <li>OTDR / Power Test</li>
+            <li>Fiber Termination</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+      <article class="service-row reverse">
+        <div class="service-photo photo-support"></div>
+        <div class="service-detail">
+          <div class="service-no">06 • IT SUPPORT</div>
+          <h2>IT Support</h2>
+          <p>
+            บริการดูแลระบบ IT สำหรับธุรกิจและองค์กร
+            ช่วยตรวจสอบ แก้ไข และดูแลอุปกรณ์ให้พร้อมใช้งาน ลดปัญหาที่กระทบการทำงาน
+          </p>
+          <ul class="service-points">
+            <li>Computer Support</li>
+            <li>Network Support</li>
+            <li>Preventive Maintenance</li>
+            <li>Monthly Service</li>
+          </ul>
+          <a class="service-link" href="contact.html">สอบถามบริการ →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="why-service">
+    <div class="container">
+      <div class="section-title">
+        <h2>ทำไมเลือก CTK SUCCESS</h2>
+        <i></i>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">✓</div>
+          <h3>ออกแบบตามหน้างานจริง</h3>
+          <p>วิเคราะห์ความต้องการและสภาพพื้นที่ก่อนเลือกแนวทางติดตั้ง</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚙</div>
+          <h3>ติดตั้งเป็นระบบ</h3>
+          <p>ให้ความสำคัญกับมาตรฐานงาน การจัดสาย และการดูแลรักษาในอนาคต</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⌁</div>
+          <h3>รองรับการขยาย</h3>
+          <p>ออกแบบระบบให้สามารถเพิ่มอุปกรณ์หรือขยายการใช้งานได้ง่ายขึ้น</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">☎</div>
+          <h3>ดูแลหลังการติดตั้ง</h3>
+          <p>พร้อมให้คำแนะนำ ตรวจสอบ และช่วยแก้ปัญหาเมื่อระบบมีข้อขัดข้อง</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-wrap">
+      <div>
+        <h2>ต้องการให้เราช่วยออกแบบระบบ?</h2>
+        <p>ติดต่อ CTK SUCCESS เพื่อสอบถามรายละเอียดหรือขอประเมินหน้างาน</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn white" href="contact.html">ขอใบเสนอราคา</a>
+        <a class="btn clear" href="tel:036680750">☎ 036-680750</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="index.html">
+        <span class="brand-symbol">C</span>
+        <strong>CTK SUCCESS</strong>
+      </a>
+      <p class="footer-desc">
+        ผู้ให้บริการด้านไอทีครบวงจร<br>
+        Network, CCTV, Server, Firewall, Fiber<br>
+        และบริการอื่นๆ เพื่อตอบโจทย์ธุรกิจของคุณ
+      </p>
+    </div>
+
+    <div>
+      <h4>ติดต่อเรา</h4>
+      <p>บริษัท ซีทีเค ซัคเซซ จำกัด (สำนักงานใหญ่)</p>
+      <p>☎ 036-680750</p>
+      <p>✉ info@ctksuccess.co.th</p>
+      <p>⌁ www.ctksuccess.co.th</p>
+    </div>
+
+    <div>
+      <h4>ลิงก์ด่วน</h4>
+      <a href="index.html">หน้าแรก</a>
+      <a href="services.html">บริการ</a>
+      <a href="index.html#products">สินค้า</a>
+      <a href="portfolio.html">ผลงาน</a>
+      <a href="contact.html">ติดต่อเรา</a>
+    </div>
+
+    <div>
+      <h4>เวลาให้บริการ</h4>
+      <p>จันทร์ - ศุกร์ 08:30 - 17:30 น.</p>
+      <p>เสาร์ 08:30 - 16:30 น.</p>
+      <p>หยุดวันอาทิตย์และวันหยุดนักขัตฤกษ์</p>
+    </div>
+  </div>
+
+  <div class="container copyright">
+    © <span id="year"></span> CTK SUCCESS CO., LTD. All rights reserved.
+  </div>
+</footer>
+
+<script src="script.js?v=10"></script>
+</body>
+</html>
