@@ -166,7 +166,7 @@ img{display:block;width:100%}
 .hero-right{
   right:0;
   width:60%;
-  background-image:url("images/networksystem/network6.jpg");
+  background-image:url("image/hero-main.png");
   clip-path:polygon(17% 0,100% 0,100% 100%,0 100%);
 }
 .hero-art::before{
