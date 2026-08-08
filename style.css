@@ -160,7 +160,7 @@ img{display:block;width:100%}
 .hero-left{
   left:0;
   width:55%;
-  background-image:url("images/cctvsystem/cctv5.jpg");
+  background-image:url("images/hero-main.png");
   clip-path:polygon(18% 0,100% 0,84% 100%,0 100%);
 }
 .hero-right{
